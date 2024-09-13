@@ -6,8 +6,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "dev": "nodemon --exec ts-node src/server.ts",
-    "tester": "ts-node src/tester.ts",
-    "test": "ts-node src/test.ts"
+    "test-generator": "ts-node src/test-generator.ts"
   },
   "author": "Ajmal Jalal",
   "license": "ISC",
